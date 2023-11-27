@@ -3,6 +3,7 @@
 
 using namespace std;
 
+<<<<<<< HEAD
 vector<string> solve(const vector<string> &items){
 
    unordered_map<string, int> itemCounts;
@@ -46,6 +47,13 @@ int main(){
         cout<<output[i]<<" "<<endl;
     }
 
+=======
+int main(){
+
+    int x;
+    cin>>x;
+    cout<<x<<endl;
+>>>>>>> b099ef1e0b4eff8e4050d54824a3ed1de50c8eda
 
     return 0;
 }

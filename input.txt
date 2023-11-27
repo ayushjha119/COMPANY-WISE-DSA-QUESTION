@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 4
 "Epho show 8"
 "Kindle Oaisis"
 "Fire tv stick"
 "Epho show 8"
+=======
+8
+>>>>>>> b099ef1e0b4eff8e4050d54824a3ed1de50c8eda
