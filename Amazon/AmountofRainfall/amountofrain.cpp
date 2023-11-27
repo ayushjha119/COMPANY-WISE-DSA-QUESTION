@@ -49,3 +49,10 @@ int main(){
 
 return 0;
 }
+
+
+// 4
+// "Epho show 8"
+// "Kindle Oaisis"
+// "Fire tv stick"
+// "Epho show 8"
