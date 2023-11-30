@@ -8,12 +8,12 @@ vector<int> findIdealDays(const vector<int>& days, int k) {
     int n = days.size();
     
     for(int i = k; i < n - k; i++) {
-        bool isIdeal = false;
+        bool isIdeal = true;
         
         // Check if the rainfall is non-increasing for k prior days
         for(int j = i - k; j < i; j++) {
-            if(days[j] >= days[j + 1]) {
-                isIdeal = true;
+            if(days[j] < days[j + 1]) {
+                isIdeal = false;
                 break;
             }
         }
@@ -21,8 +21,8 @@ vector<int> findIdealDays(const vector<int>& days, int k) {
         // Check if the rainfall is non-decreasing for k days after
         if(isIdeal) {
             for(int j = i; j < i + k; j++) {
-                if(days[j] <= days[j + 1]) {
-                    isIdeal = true;
+                if(days[j] > days[j + 1]) {
+                    isIdeal = false;
                     break;
                 }
             }
